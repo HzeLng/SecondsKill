@@ -277,6 +277,7 @@ public class KillController implements InitializingBean {
     private StringRedisTemplate stringRedisTemplate;
     /**
      * Controller 实现 InitializingBean 重写系统初始化函数
+     * bean初始化阶段， 进行redis商品数据预热
      * @throws Exception
      */
     @Override
